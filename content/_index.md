@@ -59,6 +59,8 @@ draft: false
 ### Maintaining/系统维护
 服务器部署、运维监控和系统管理的实用指南。
 
+
+
 **学习路径：**
 - Linux系统管理
 - 容器化与编排
@@ -66,6 +68,13 @@ draft: false
 - 监控与日志管理
 - 自动化运维
 
-[查看详细内容 →](/maintaining/)
+### Embedded/嵌入式开发
+
+[查看详细内容 →](/embedded/)
+
+### Engineering/工程
+
+[查看详细内容 →](/engineering/)
+
 
 ---
