@@ -1,0 +1,100 @@
+---
+title: "python"
+date: 2025-11-35
+draft: false
+---
+
+## python
+- 输入输出与变量赋值    
+    - 输出
+        - print("string")
+        - print(int)
+        - print(float)
+        - print(f"提示：{ }")
+    - 输入
+        - input("提示")
+        - input的是字符串
+    - 变量赋值
+        - a=xxx(令a=xxx)
+        - a，b为数字
+            - a+b：相加
+        - a，b为字符串
+            - a+b：字符串连接
+        - 类型转换
+            - int(),string()
+- 逻辑运算和条件判断
+    - 逻辑运算
+        - and
+        - or
+        - not
+    - 条件判断
+        - if
+            - if(条件)：
+            - elif(条件)：
+            - else：
+- 迭代循环
+    - for
+        - for <变量> in <迭代的对象>:<语句> 
+        - for i in a:
+        - for i in range(0,20,1):  
+            - 可简写 range(20)
+        - continue
+        - break
+- 条件循环
+    - while
+        - while <条件>:<语句体>
+    - /:除法(float)
+    - //:整除(int)
+- 变量类型
+    - 整型 int
+    - 浮点型 float
+    - 字符串 str
+    - [] list 列表
+    - () tuple 元组
+    - {} set 集合
+    - {:} dict 字典
+    - 变量类型
+        - type()
+            - <class '类型'>
+    - isinstance(1,int)
+    - int() 向下取整
+    - round() 四舍五入 
+    - round(1.11111,2)(保留两位小数)
+    - int("A") 报错
+- 数学函数
+    - 次方
+        - 4**2
+        - pow(4,2)
+    - import math —— 导入数学库
+        - math.sin
+        - math.e
+        - math.log
+        - math.sqrt —— 平方根
+        - math.hypot —— 三角形斜边
+        - math.pi
+- 字符串
+    - 字符串
+        - a = "XXX"
+        - a = 'XXX'
+        - a = """ """ —— 存储超文本
+    - 转义字符
+        - 换行：\n
+        - 对齐：\t
+    - 特别
+        - 数乘
+            - print("A" * 100)
+        - 索引
+            - "ABCD"[0] —— 第一个元素
+            - "ABCD"[-1] —— 倒数第一个元素
+            - "ABCD"[0：2] —— 第一个和第二个元素（左闭右开）
+            - a.count("o") —— o在字符串a中出现几次
+            - a.upper() —— a的所有字母变大写
+            - a.lower() —— a的所有字母变小写
+            - a.find("i") —— i在字符串a的第几位
+            - print("XXX:{}".format(100))
+                - {} 占位符
+                - print("XXX:{}，XXX:{}".format(100,"A"))
+                - print("XXX:{1}，XXX:{0}".format(100,"A"))
+                - print("XXX:{a}，XXX:{b}".format(a=100,b="A"))
+                - print(f"XXX:{100}")
+                - print(f"{1/3:.2f}")
